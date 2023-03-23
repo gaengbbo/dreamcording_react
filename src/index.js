@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import AppMentors from './components/AppMentors';
+import Appform from './AppForm';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppMentors />
+    <Appform />
   </React.StrictMode>
 );
 
